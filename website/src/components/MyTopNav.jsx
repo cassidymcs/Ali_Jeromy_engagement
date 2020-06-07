@@ -7,11 +7,11 @@ export default class MyTopNav extends Component {
     return(
         <Navbar bg="light" expand="lg" fixed="top">
             <Nav.Link href="/home" >Home</Nav.Link>
-            <Nav.Link >Location</Nav.Link>
-            <Nav.Link >RSVP</Nav.Link>
-            <Nav.Link >Request a Song</Nav.Link>
+            <Nav.Link href="/location" >Location</Nav.Link>
+            <Nav.Link href="/rsvp">RSVP</Nav.Link>
+            <Nav.Link href="/request">Request a Song</Nav.Link>
         </Navbar>
-    )
+    );
 
     }
 }
