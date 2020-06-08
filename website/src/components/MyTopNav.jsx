@@ -6,12 +6,14 @@ import './MyTopNav.css';
 export default class MyTopNav extends Component {
     render(){
     return(
-        <Navbar bg="light" expand="lg" className="color-nav" >
-            <Nav.Link href="/home" >Home</Nav.Link>
-            <Nav.Link href="/location" >Location</Nav.Link>
-            <Nav.Link href="/rsvp">RSVP</Nav.Link>
-            <Nav.Link href="/request">Request a Song</Nav.Link>
-        </Navbar>
+        <div className="color-nav">
+        <Navbar expand="lg" className="color-nav" >
+            <Nav.Link className="black" href="/home" >Home</Nav.Link>
+            <Nav.Link className="black" href="/location" >Location</Nav.Link>
+            <Nav.Link className="black" href="/rsvp" >RSVP</Nav.Link>
+            <Nav.Link className="black" href="/request">Request a Song</Nav.Link>
+         </Navbar>  
+        </div>
     );
 
     }

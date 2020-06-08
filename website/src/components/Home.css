@@ -4,4 +4,16 @@
 
 .img {
     width: 100%;
+    position: relative;
+}
+ .img-quote {
+    color: white;
+    position: absolute;
+    text-align: center;
+    max-width: 100%;
+    font-family: Snell Roundhand, cursive;
+    font-size: 10vw;
+    top: 250px;
+    left: 20px;
+
 }
